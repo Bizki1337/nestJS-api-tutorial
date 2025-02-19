@@ -11,5 +11,6 @@ npm run start:dev // start api in dev mode
 ### .env file
 ```env
 DATABASE_URL="postgresql://postgres:123@localhost:5434/nest?schema=public"
-JWT_SECRET="nestjs-api-tutorial-secret"
+AT_SECRET="nestjs-api-tutorial-access-secret"
+RT_SECRET="nestjs-api-tutorial-refresh-secret"
 ```
